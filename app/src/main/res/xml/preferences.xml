@@ -1,0 +1,12 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/action_settings">
+    <PreferenceCategory
+        android:title="Category Title"
+        android:layout="@layout/preference_category">
+        <Preference
+            android:background="@color/colorAccent"
+            android:key="title_pref_keys"
+            android:summary="summary"
+            android:title="Title" />
+    </PreferenceCategory>
+</PreferenceScreen>
